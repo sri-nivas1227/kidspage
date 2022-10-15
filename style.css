@@ -1,0 +1,98 @@
+p,h1,h2,h3,h4{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+div{
+    margin:20px;
+}
+/*div styles */
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #c5debc;
+}
+.sidebar{
+    width: 20%;
+    height: 100% ;
+    background-color: rgba(91, 192, 231, 0.952);
+    /* float: left; */
+}
+main{
+    width: 60%;
+    height: auto;
+    background-color: #d8eff7;
+    /* margin-left: 20%;
+    margin-right: 20%; */
+    /* float: left; */
+
+}
+.rightbar{
+    width: 20%;
+    height: auto;
+    background-color: beige;
+    /* float: left; */
+}
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #d8e49a;
+    clear: both;
+    text-align: center;
+    padding: 15px;
+}
+@media screen and (min-width: 670px)
+{
+    .sidebar{
+        float: left;
+    }
+    main{
+        float: left;
+    }
+    .rightbar{
+        float: left;
+    }
+    
+}
+
+/* header styles */
+.nav{
+    text-decoration: none;
+}
+.navText one{
+    font-size: 2.43rem;
+}
+.navText{
+    display: inline;
+}
+#logo{
+    height: 60%;
+    width: auto;
+}
+
+/* main styles */
+main img{
+    width: 100%;
+    height: auto;
+}   
+#email,#phNumber{
+    text-decoration: none;
+    color:cadetblue;
+    
+}
+#email:hover,#phNumber:hover{
+    font-size: larger;
+    color: red;
+    border: 2px groove green;
+    border-radius: 5px;
+}
+.rightbar img{
+    width: 100%;
+    height: auto;
+}
+.rightbar input{
+    border: 2px solid;
+    border-radius: 5px;
+    width: 50%;
+}
