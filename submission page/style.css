@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+}
+.image {
+    width: 30%;
+    height: auto;
+}
+.button {
+    background-color: darkgrey;
+    color: black;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    border-width: 0;
+}
