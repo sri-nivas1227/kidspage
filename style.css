@@ -96,3 +96,16 @@ main img{
     border-radius: 5px;
     width: 50%;
 }
+.button {
+    background-color:chocolate;
+    color:white;
+    width:100px;
+    height: 40px;
+    border-width: 0;
+    border-radius: 5px;
+
+}
+.detais {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
